@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { default: mongoose } = require("mongoose");
+const { default: mongoose } = require("mongoose"); // nafiz
 const CryptoJS = require("crypto-js");
 const jwt = require("jsonwebtoken");
 const userSchema = require("../schemas/userSchema");
